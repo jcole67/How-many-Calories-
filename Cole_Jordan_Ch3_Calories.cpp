@@ -20,7 +20,7 @@ int main()
     bagPercent = (cookEaten / 30) * 100;                        //Calculate % of bag consumed based on user cookies eaten
     
     //Output user cookies eaten, % of bag consumed, and calories consumed
-    cout << "You have eaten " << cookEaten << " cookies (≈" << setprecision(3) << bagPercent;
+    cout << "You have eaten " << cookEaten << " cookies (" << setprecision(3) << bagPercent;
     cout << "% of the bag). " << "That is " << setprecision(6) << cookCals << " calories consumed." << endl;
     
     system("pause");
